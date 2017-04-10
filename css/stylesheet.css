@@ -1,0 +1,28 @@
+.jumbotron{
+    background-color:rgba(0,255,170,.3);
+    height:100vh;
+}
+
+.navbar{background-color: rgba(128,128,128,1);
+}
+
+div a{
+    color:white;   
+}
+
+.contact{
+    background-color: rgba(0,255,170,.3);
+    height: 10vh;
+}
+
+.footer{
+width: 100vw;    
+background-color: rgba(0,255,170,.3);
+}
+
+.list-inline{
+    width:50vw;
+}
+.copyright{
+
+}
