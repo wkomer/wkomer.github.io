@@ -1,3 +1,7 @@
+.alert{
+    text-align: center;
+}
+
 .jumbotron{
     background-color:rgba(0,255,170,.3);
     height:100vh;
