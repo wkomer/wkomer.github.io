@@ -2,12 +2,12 @@ var   canvas = document.querySelector('canvas'),
          ctx = canvas.getContext('2d'),
    particles = [],
 patriclesNum = 1000,
-           w = window.innerWidth,
-           h = window.innerHeight,
+           w = innerWidth,
+           h = innerHeight,
       colors = [,'#000000'];
  
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.width = innerWidth;
+canvas.height = innerHeight;
 canvas.style.left = window.Width;
 
 if(window.innerHeight>500)
