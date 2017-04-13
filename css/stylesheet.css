@@ -1,16 +1,24 @@
 .alert{
     text-align: center;
+    width: 100vw;
+}
+body{
+overflow-x: hidden;
 }
 
 .jumbotron{
     background-color:rgba(0,255,170,.3);
+    width: 100vw;
     height:100vh;
+    overflow: hidden;
 }
 
 .navbar{background-color: rgba(128,128,128,1);
+    width:100vw;
+    margin-bottom: auto;
 }
-
-div a{
+div a
+,div li a{
     color:white;   
 }
 
@@ -26,7 +34,4 @@ background-color: rgba(0,255,170,.3);
 
 .list-inline{
     width:50vw;
-}
-.copyright{
-
 }

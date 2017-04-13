@@ -3,11 +3,11 @@ var   canvas = document.querySelector('canvas'),
    particles = [],
 patriclesNum = 1000,
            w = 1500,
-           h = 1000,
+           h = 700,
       colors = [,'#000000'];
  
 canvas.width = 1500;
-canvas.height = 1000;
+canvas.height = 900;
 canvas.style.left = window.Width;
 
 if(window.innerHeight>500)
@@ -32,7 +32,7 @@ function draw(){
     for(var j = 0; j<patriclesNum; j++){
       
        var temp2 = particles[j];
-       ctx.linewidth = 0.4;
+       ctx.linewidth = 0.1;
       
        if(temp.rgba == temp2.rgba && findDistance(temp, temp2)<50){
           ctx.strokeStyle = temp.rgba;

@@ -1,4 +1,8 @@
-.canvas{
-position: fixed;
+
+
+canvas{
+width: 100vw;
+height: 100hw;
+position:inherit;
 transform:translateZ(0);
 }
