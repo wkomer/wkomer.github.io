@@ -7,7 +7,7 @@ patriclesNum = 1000,
       colors = [,'#000000'];
  
 canvas.width = 1500;
-canvas.height = 900;
+canvas.height = 700;
 canvas.style.left = window.Width;
 
 if(window.innerHeight>500)
